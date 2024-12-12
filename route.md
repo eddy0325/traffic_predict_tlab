@@ -37,24 +37,31 @@
 1. T-GCN
    * 论文：《[T-GCN: A temporal graph convolutional network for traffic prediction](https://ieeexplore.ieee.org/abstract/document/8809901)》
    * 代码：https://github.com/lehaifeng/T-GCN
+   * 赏析：本质上是基于GRU的框架，用GCN代替了GRU cell中的线性层；ConvLSTM也是一样的套路
 2. A3T-GCN
    * 论文：《[A3T-GCN: Attention Temporal Graph Convolutional Network for Traffic Forecasting](https://www.mdpi.com/2220-9964/10/7/485)》
    * 代码：https://github.com/lehaifeng/T-GCN
+   * 赏析：T-GCN的衍生，输出模块用了attention
 3. STGCN
-   * 论文：《[STGCN: A Spatial-Temporal Aware Graph Learning Method for POI Recommendation](https://ieeexplore.ieee.org/abstract/document/9338281)》
+   * 论文：《[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting](https://arxiv.org/abs/1709.04875)》
    * 代码：https://github.com/hazdzz/STGCN
+   * 赏析：xxx
 4. DCRNN
-   * 论文：《[DCRNN: A Deep Cross approach based on RNN for Partial Parameter Sharing in Multi-task Learning](https://arxiv.org/abs/2310.11777)》
+   * 论文：《[Diffusion convolutional recurrent neural network: Data-driven traffic forecasting](https://arxiv.org/abs/1707.01926)》
    * 代码：https://github.com/chnsh/DCRNN_PyTorch
+   * 赏析：和T-GCN一样的框架，用扩散卷积代替了GRU cell中的线性层；多步预测的时候采用seq2seq的范式逐个生成每个时刻的预测结果，encoder的last hidden state用来初始化decoder的hidden state
 5. Graph WaveNet
    * 论文：《[Graph WaveNet for Deep Spatial-Temporal Graph Modeling](https://arxiv.org/abs/1906.00121)》
    * 代码：https://github.com/nnzhan/Graph-WaveNet
+   * 赏析：时空分步处理，时间用gated TCN，空间用考虑自适应邻接矩阵的增强版扩散卷积；多步预测的时候先把信息汇总到最后一个时间片，然后用MLP直接生成所有时刻预测结果
 6. ASTGCN
-   * 论文：《[AST-GCN: Attribute-Augmented Spatiotemporal Graph Convolutional Network for Traffic Forecasting](https://ieeexplore.ieee.org/abstract/document/9363197/)》
+   * 论文：《[Attention based spatial-temporal graph convolutional networks for traffic flow forecasting](http://ojs.aaai.org/index.php/AAAI/article/view/3881)》
    * 代码：https://github.com/guoshnBJTU/ASTGCN-2019-pytorch
+   * 赏析：xxx
 7. GMAN
    * 论文：《[GMAN: A Graph Multi-Attention Network for Traffic Prediction](https://aaai.org/ojs/index.php/AAAI/article/view/5477)》
    * 代码：https://github.com/VincLee8188/GMAN-PyTorch
+   * 赏析：xxx
 
 ## 交通预测3.0
 
