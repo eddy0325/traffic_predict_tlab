@@ -65,13 +65,38 @@
 7. GMAN
    * 论文：《[GMAN: A Graph Multi-Attention Network for Traffic Prediction](https://aaai.org/ojs/index.php/AAAI/article/view/5477)》
    * 代码：https://github.com/VincLee8188/GMAN-PyTorch
-   * 赏析：xxx
+   * 赏析：纯基于注意力的模型，没有使用传统的时空特征提取模块；非常优雅，推荐阅读
 
 ## 交通预测3.0
 
 特点：基于transformer的模型
 
-这块不多介绍，[链接](https://blog.csdn.net/SmartLab307/article/details/129534937)中列举了6篇代表性论文及配套代码，自行阅读复现即可
+可学习[链接](https://blog.csdn.net/SmartLab307/article/details/129534937)中列举的6篇代表性论文：
+
+1. STTN
+   * 论文：《[Spatial-Temporal Transformer Networks for Traffic Flow Forecasting](https://arxiv.org/abs/2001.02908)》
+   * 代码：https://github.com/wubin5/STTN
+   * 赏析：xxx
+2. Traffic Transformer
+   * 论文：《[Learning dynamic and hierarchical traffic spatiotemporal features with Transformer](https://arxiv.org/abs/2104.05163)》
+   * 代码：https://github.com/R0oup1iao/Traffic-Transformer
+   * 赏析：xxx
+3. ASTGNN
+   * 论文：《[Learning Dynamics and Heterogeneity of Spatial-Temporal Graph Data for Traffic Forecasting](https://ieeexplore.ieee.org/document/9346058)》
+   * 代码：https://github.com/guoshnBJTU/ASTGNN
+   * 赏析：xxx
+4. MGT
+   * 论文：《[Meta Graph Transformer: A Novel Framework for Spatial–Temporal Traffic Prediction](https://www.sciencedirect.com/science/article/pii/S0925231221018725)》
+   * 代码：https://github.com/lonicera-yx/MGT
+   * 赏析：xxx
+5. ASTTN
+   * 论文：《[Adaptive Graph Spatial-Temporal Transformer Network for Traffic Flow Forecasting](https://arxiv.org/abs/2207.05064)》
+   * 代码：https://github.com/yokifly/ASTTN_pytorch
+   * 赏析：xxx
+6. PDFormer
+   * 论文：《[PDFormer: Propagation Delay-Aware Dynamic Long-Range Transformer for Traffic Flow Prediction](https://arxiv.org/abs/2301.07945)》
+   * 代码：https://github.com/BUAABIGSCity/PDFormer/tree/master
+   * 赏析：xxx
 
 附N篇基于transformer做通用预测模型的代表性论文供学习：
 1. Informer
