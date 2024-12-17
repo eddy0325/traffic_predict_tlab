@@ -78,7 +78,7 @@
    * 代码：https://github.com/wubin5/STTN
    * 赏析：xxx
 2. Traffic Transformer
-   * 论文：《[Learning dynamic and hierarchical traffic spatiotemporal features with Transformer](https://arxiv.org/abs/2104.05163)》
+   * 论文：《[Learning dynamic and hierarchical traffic spatiotemporal features with Transformer](https://ieeexplore.ieee.org/document/9520129)》
    * 代码：https://github.com/R0oup1iao/Traffic-Transformer
    * 赏析：xxx
 3. ASTGNN
@@ -94,7 +94,7 @@
    * 代码：https://github.com/yokifly/ASTTN_pytorch
    * 赏析：xxx
 6. PDFormer
-   * 论文：《[PDFormer: Propagation Delay-Aware Dynamic Long-Range Transformer for Traffic Flow Prediction](https://arxiv.org/abs/2301.07945)》
+   * 论文：《[PDFormer: Propagation Delay-Aware Dynamic Long-Range Transformer for Traffic Flow Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/25556)》
    * 代码：https://github.com/BUAABIGSCity/PDFormer/tree/master
    * 赏析：xxx
 
