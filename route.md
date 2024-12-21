@@ -111,9 +111,9 @@
 2. DNEAT
    * 论文：《[DNEAT: A novel dynamic node-edge attention network for origin-destination demand prediction](https://www.sciencedirect.com/science/article/pii/S0968090X20307518)》
    * 代码：暂无
-4. CMOD
+3. CMOD
    * 论文：《[Continuous-Time and Multi-Level Graph Representation Learning for Origin-Destination Demand Prediction](https://dl.acm.org/doi/abs/10.1145/3534678.3539273)》
    * 代码：https://github.com/liangzhehan/CMOD
-5. HMOD
+4. HMOD
    * 论文：《[Dynamic Graph Learning Based on Hierarchical Memory for Origin-Destination Demand Prediction](https://arxiv.org/abs/2205.14593)》
    * 代码：https://github.com/Rising0321/HMOD
