@@ -49,7 +49,7 @@
 3. STGCN
    * 论文：《[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting](https://arxiv.org/abs/1709.04875)》
    * 代码：https://github.com/hazdzz/STGCN
-   * 赏析：xxx
+   * 赏析：时空分步处理，时间上用1d因果卷积，空间上用图卷积
 4. DCRNN
    * 论文：《[Diffusion convolutional recurrent neural network: Data-driven traffic forecasting](https://arxiv.org/abs/1707.01926)》
    * 代码：https://github.com/chnsh/DCRNN_PyTorch
@@ -61,7 +61,7 @@
 6. ASTGCN
    * 论文：《[Attention based spatial-temporal graph convolutional networks for traffic flow forecasting](http://ojs.aaai.org/index.php/AAAI/article/view/3881)》
    * 代码：https://github.com/guoshnBJTU/ASTGCN-2019-pytorch
-   * 赏析：xxx
+   * 赏析：时空分步处理，时间上用标准1d卷积，空间上用图卷积；用了一种比较特殊的attention
 7. GMAN
    * 论文：《[GMAN: A Graph Multi-Attention Network for Traffic Prediction](https://aaai.org/ojs/index.php/AAAI/article/view/5477)》
    * 代码：https://github.com/VincLee8188/GMAN-PyTorch
@@ -76,27 +76,27 @@
 1. STTN
    * 论文：《[Spatial-Temporal Transformer Networks for Traffic Flow Forecasting](https://arxiv.org/abs/2001.02908)》
    * 代码：https://github.com/wubin5/STTN
-   * 赏析：xxx
+   * 赏析：时空分步处理，时间和空间都用的自注意力；结构简单，值得学习
 2. Traffic Transformer
    * 论文：《[Learning dynamic and hierarchical traffic spatiotemporal features with Transformer](https://ieeexplore.ieee.org/document/9520129)》
    * 代码：https://github.com/R0oup1iao/Traffic-Transformer
-   * 赏析：xxx
+   * 赏析：Encoder-decoder架构；设计思想是time-then-space；结构经典，值得学习
 3. ASTGNN
    * 论文：《[Learning Dynamics and Heterogeneity of Spatial-Temporal Graph Data for Traffic Forecasting](https://ieeexplore.ieee.org/document/9346058)》
    * 代码：https://github.com/guoshnBJTU/ASTGNN
-   * 赏析：xxx
+   * 赏析：Encoder-decoder架构；时间注意力中生成QKV用的是1d卷积，用来感知时间趋势
 4. MGT
    * 论文：《[Meta Graph Transformer: A Novel Framework for Spatial–Temporal Traffic Prediction](https://www.sciencedirect.com/science/article/pii/S0925231221018725)》
    * 代码：https://github.com/lonicera-yx/MGT
-   * 赏析：xxx
+   * 赏析：Encoder-decoder架构；空间上用了多种图为空间注意力提供领域知识；计算QKV时会考虑时空上下文，而不是统一的MLP
 5. ASTTN
    * 论文：《[Adaptive Graph Spatial-Temporal Transformer Network for Traffic Flow Forecasting](https://arxiv.org/abs/2207.05064)》
    * 代码：https://github.com/yokifly/ASTTN_pytorch
-   * 赏析：xxx
+   * 赏析：时空同时建模；结构创新，值得学习
 6. PDFormer
    * 论文：《[PDFormer: Propagation Delay-Aware Dynamic Long-Range Transformer for Traffic Flow Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/25556)》
    * 代码：https://github.com/BUAABIGSCity/PDFormer/tree/master
-   * 赏析：xxx
+   * 赏析：考虑交通状态传播延迟
 
 附N篇基于transformer做通用预测模型的代表性论文供学习：
 1. Informer
